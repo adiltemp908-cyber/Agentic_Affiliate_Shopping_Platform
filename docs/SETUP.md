@@ -100,7 +100,7 @@ npm install --no-save --package-lock=false playwright
 node scripts/capture_showcase.cjs
 ```
 
-The capture script requires current matching data, validates the displayed constraints, saves PNGs in `docs/screenshots/`, and writes its diagnostic summary to ignored `reports/`. A changed catalog may yield different counts or no matches; it does not manufacture screenshot results.
+The capture script requires current matching data, validates the displayed constraints, and captures both the search and the retailer page opened from its first result. It saves PNGs in `docs/screenshots/` and writes its diagnostic summary to ignored `reports/`. A changed catalog may yield different counts or no matches; it does not manufacture screenshot results. Retailer pages require internet access. Detected access/error pages are saved only as diagnostics in `reports/`, and the capture run fails rather than publishing them as product screenshots.
 
 ## Troubleshooting
 

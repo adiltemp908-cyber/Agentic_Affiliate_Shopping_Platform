@@ -1,4 +1,4 @@
-# Affiliate Shopping Platform
+# Agentic Affiliate Shopping Platform
 
 **Shortlist — a local AI shopping assistant for Amazon India and Flipkart.**
 
@@ -89,17 +89,47 @@ Measured on **31 October 2026** in the populated development workspace:
 
 These are dated observations, not a live inventory claim or a count of distinct physical products. Recent status expires after 24 hours. **The populated catalog is not bundled in the repository**; a fresh checkout starts empty and must collect or import documented observations. The screenshots show the populated development instance.
 
-## Why the repository is not named “Agentic”
+## Example searches and product pages
 
-This is a **model-assisted, stateful shopping workflow**. The model interprets intent and helps select the conversational path, while application code controls retrieval, validation and acquisition. It does not yet independently plan a sequence of tools, acquire missing evidence during a search, and iterate until a shopping goal is satisfied. The simpler repository name reflects that boundary without diminishing the LangChain and LangGraph work already implemented.
+Captured on **31 October 2026** from the running application. Each search is followed by the retailer page opened from its **top result**. These are real browser captures; prices and availability can change. See the [full showcase](docs/SHOWCASE.md) for the recorded criteria and details.
+
+### Round digital alarm clock
+
+**Request:** “I want a digital alarm clock that is round in shape”
+
+![Round digital alarm clock search results](docs/screenshots/round-digital-alarm-clock.png)
+
+**Top result opened on Amazon:** [Zollyss round digital alarm clock](https://www.amazon.in/dp/B0GJSWLRJ4).
+
+![Top round digital alarm clock result on Amazon](docs/screenshots/round-digital-alarm-clock-product.png)
+
+### OLED television
+
+**Request:** “I want a oled TV”
+
+![OLED television search results](docs/screenshots/oled-televisions.png)
+
+**Top result opened on Flipkart:** [LIMEBERRY 50-inch television](https://www.flipkart.com/limeberry-125-cm-50-inch-oled-ultra-hd-4k-smart-android-tv/p/itm1a9381dece63e?pid=TVSGMWP2WVG2CBSZ). OLED is the retailer's recorded claim. The page shows a delivery restriction with no location selected.
+
+![Top OLED television result on Flipkart](docs/screenshots/oled-televisions-product.png)
+
+### Laptop below ₹60,000 with minimum specifications
+
+**Request:** “I need a laptop under 60000 with at least 16 GB RAM and 512 GB SSD”
+
+![Laptop results filtered by budget, RAM and storage](docs/screenshots/laptop-budget-specifications.png)
+
+**Top result opened on Amazon:** [HP Professional 15 with 16 GB RAM and 512 GB SSD](https://www.amazon.in/dp/B0GHSN1N24).
+
+![Top laptop result on Amazon](docs/screenshots/laptop-budget-specifications-product.png)
 
 ## Run locally
 
 The tested local-model runtime uses Windows and an NVIDIA GPU exposed through llama.cpp's Vulkan backend. Model weights and a compatible runtime are installed separately. See [Setup](docs/SETUP.md) for the full configuration, collection and indexing steps.
 
 ```powershell
-git clone https://github.com/adiltemp908-cyber/Affiliate_Shopping_Platform.git
-cd Affiliate_Shopping_Platform
+git clone https://github.com/adiltemp908-cyber/Agentic_Affiliate_Shopping_Platform.git
+cd Agentic_Affiliate_Shopping_Platform
 python -m venv .venv
 .\.venv\Scripts\Activate.ps1
 python -m pip install -e ".[dev]"
