@@ -1,0 +1,1168 @@
+{
+  "broad": [
+    {
+      "id": "Amazon:laptops",
+      "retailer": "Amazon",
+      "category": "laptop",
+      "label": "laptops",
+      "url": "https://www.amazon.in/s?k=laptops"
+    },
+    {
+      "id": "Flipkart:Laptops",
+      "retailer": "Flipkart",
+      "category": "laptop",
+      "label": "Laptops",
+      "url": "https://www.flipkart.com/laptops/pr?sid=6bo,b5g"
+    },
+    {
+      "id": "Amazon:gaming laptop rtx",
+      "retailer": "Amazon",
+      "category": "laptop",
+      "label": "gaming laptop rtx",
+      "url": "https://www.amazon.in/s?k=gaming+laptop+rtx"
+    },
+    {
+      "id": "Flipkart:Gaming Laptops",
+      "retailer": "Flipkart",
+      "category": "laptop",
+      "label": "Gaming Laptops",
+      "url": "https://www.flipkart.com/gaming-laptops/pr?sid=4rr,tz1"
+    },
+    {
+      "id": "Amazon:5g smartphone",
+      "retailer": "Amazon",
+      "category": "smartphone",
+      "label": "5g smartphone",
+      "url": "https://www.amazon.in/s?k=5g+smartphone"
+    },
+    {
+      "id": "Flipkart:Mobiles",
+      "retailer": "Flipkart",
+      "category": "smartphone",
+      "label": "Mobiles",
+      "url": "https://www.flipkart.com/mobiles/pr?sid=tyy,4io"
+    },
+    {
+      "id": "Amazon:android tablet",
+      "retailer": "Amazon",
+      "category": "tablet",
+      "label": "android tablet",
+      "url": "https://www.amazon.in/s?k=android+tablet"
+    },
+    {
+      "id": "Flipkart:Tablets",
+      "retailer": "Flipkart",
+      "category": "tablet",
+      "label": "Tablets",
+      "url": "https://www.flipkart.com/tablets/pr?sid=tyy,hry"
+    },
+    {
+      "id": "Amazon:wireless headphones",
+      "retailer": "Amazon",
+      "category": "headphones",
+      "label": "wireless headphones",
+      "url": "https://www.amazon.in/s?k=wireless+headphones"
+    },
+    {
+      "id": "Flipkart:Headphones",
+      "retailer": "Flipkart",
+      "category": "headphones",
+      "label": "Headphones",
+      "url": "https://www.flipkart.com/headphones/pr?sid=tyy,4mr,fp0"
+    },
+    {
+      "id": "Amazon:wireless earbuds",
+      "retailer": "Amazon",
+      "category": "headphones",
+      "label": "wireless earbuds",
+      "url": "https://www.amazon.in/s?k=wireless+earbuds"
+    },
+    {
+      "id": "Flipkart:Headsets",
+      "retailer": "Flipkart",
+      "category": "headphones",
+      "label": "Headsets",
+      "url": "https://www.flipkart.com/headsets/pr?sid=ckf,see,9jw"
+    },
+    {
+      "id": "Amazon:smartwatch",
+      "retailer": "Amazon",
+      "category": "smartwatch",
+      "label": "smartwatch",
+      "url": "https://www.amazon.in/s?k=smartwatch"
+    },
+    {
+      "id": "Flipkart:Smart Watches",
+      "retailer": "Flipkart",
+      "category": "smartwatch",
+      "label": "Smart Watches",
+      "url": "https://www.flipkart.com/smart-watches/pr?sid=tyy,4mr,buh"
+    },
+    {
+      "id": "Amazon:computer monitor",
+      "retailer": "Amazon",
+      "category": "monitor",
+      "label": "computer monitor",
+      "url": "https://www.amazon.in/s?k=computer+monitor"
+    },
+    {
+      "id": "Flipkart:Monitors",
+      "retailer": "Flipkart",
+      "category": "monitor",
+      "label": "Monitors",
+      "url": "https://www.flipkart.com/monitors/pr?sid=6bo,g0i,9no"
+    },
+    {
+      "id": "Amazon:smart television",
+      "retailer": "Amazon",
+      "category": "television",
+      "label": "smart television",
+      "url": "https://www.amazon.in/s?k=smart+television"
+    },
+    {
+      "id": "Flipkart:Televisions",
+      "retailer": "Flipkart",
+      "category": "television",
+      "label": "Televisions",
+      "url": "https://www.flipkart.com/televisions/pr?sid=ckf,czl"
+    },
+    {
+      "id": "Amazon:digital camera",
+      "retailer": "Amazon",
+      "category": "camera",
+      "label": "digital camera",
+      "url": "https://www.amazon.in/s?k=digital+camera"
+    },
+    {
+      "id": "Flipkart:Cameras",
+      "retailer": "Flipkart",
+      "category": "camera",
+      "label": "Cameras",
+      "url": "https://www.flipkart.com/cameras/pr?sid=jek,p31"
+    },
+    {
+      "id": "Amazon:men cotton shirts",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "men cotton shirts",
+      "url": "https://www.amazon.in/s?k=men+cotton+shirts"
+    },
+    {
+      "id": "Flipkart:Shirts",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Shirts",
+      "url": "https://www.flipkart.com/shirts/pr?sid=clo,ash,axc"
+    },
+    {
+      "id": "Amazon:cotton t shirts",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "cotton t shirts",
+      "url": "https://www.amazon.in/s?k=cotton+t+shirts"
+    },
+    {
+      "id": "Flipkart:T-Shirts",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "T-Shirts",
+      "url": "https://www.flipkart.com/men/tshirts/pr?sid=2oq,s9b,j9y"
+    },
+    {
+      "id": "Amazon:jeans",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "jeans",
+      "url": "https://www.amazon.in/s?k=jeans"
+    },
+    {
+      "id": "Flipkart:Jeans",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Jeans",
+      "url": "https://www.flipkart.com/jeans/pr?sid=clo,vua,k58"
+    },
+    {
+      "id": "Amazon:women dresses",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "women dresses",
+      "url": "https://www.amazon.in/s?k=women+dresses"
+    },
+    {
+      "id": "Flipkart:Dresses",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Dresses",
+      "url": "https://www.flipkart.com/dresses/pr?sid=clo,odx,maj"
+    },
+    {
+      "id": "Amazon:women cotton kurta",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "women cotton kurta",
+      "url": "https://www.amazon.in/s?k=women+cotton+kurta"
+    },
+    {
+      "id": "Flipkart:Kurtas",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Kurtas",
+      "url": "https://www.flipkart.com/kurtas/pr?sid=clo,cfv,cib"
+    },
+    {
+      "id": "Amazon:sarees",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "sarees",
+      "url": "https://www.amazon.in/s?k=sarees"
+    },
+    {
+      "id": "Flipkart:Sarees",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Sarees",
+      "url": "https://www.flipkart.com/sarees/pr?sid=clo,8on,zpd"
+    },
+    {
+      "id": "Amazon:men running shoes",
+      "retailer": "Amazon",
+      "category": "footwear",
+      "label": "men running shoes",
+      "url": "https://www.amazon.in/s?k=men+running+shoes"
+    },
+    {
+      "id": "Flipkart:Men\u2019s Sports Shoes",
+      "retailer": "Flipkart",
+      "category": "footwear",
+      "label": "Men\u2019s Sports Shoes",
+      "url": "https://www.flipkart.com/mens-sports-shoes/pr?sid=osp,cil,1cu"
+    },
+    {
+      "id": "Amazon:women running shoes",
+      "retailer": "Amazon",
+      "category": "footwear",
+      "label": "women running shoes",
+      "url": "https://www.amazon.in/s?k=women+running+shoes"
+    },
+    {
+      "id": "Flipkart:Women's Sports Shoes",
+      "retailer": "Flipkart",
+      "category": "footwear",
+      "label": "Women's Sports Shoes",
+      "url": "https://www.flipkart.com/womens-sports-shoes/pr?sid=osp,iko,d20"
+    },
+    {
+      "id": "Amazon:men sneakers",
+      "retailer": "Amazon",
+      "category": "footwear",
+      "label": "men sneakers",
+      "url": "https://www.amazon.in/s?k=men+sneakers"
+    },
+    {
+      "id": "Flipkart:Men\u2019s Casual Shoes",
+      "retailer": "Flipkart",
+      "category": "footwear",
+      "label": "Men\u2019s Casual Shoes",
+      "url": "https://www.flipkart.com/mens-casual-shoes/pr?sid=osp,cil,e1f"
+    },
+    {
+      "id": "Amazon:sandals",
+      "retailer": "Amazon",
+      "category": "footwear",
+      "label": "sandals",
+      "url": "https://www.amazon.in/s?k=sandals"
+    },
+    {
+      "id": "Flipkart:Sandals",
+      "retailer": "Flipkart",
+      "category": "footwear",
+      "label": "Sandals",
+      "url": "https://www.flipkart.com/sandals/pr?sid=osp,iko,riq"
+    },
+    {
+      "id": "Amazon:backpacks",
+      "retailer": "Amazon",
+      "category": "bag",
+      "label": "backpacks",
+      "url": "https://www.amazon.in/s?k=backpacks"
+    },
+    {
+      "id": "Flipkart:Backpacks",
+      "retailer": "Flipkart",
+      "category": "bag",
+      "label": "Backpacks",
+      "url": "https://www.flipkart.com/backpacks/pr?sid=reh,4d7,ak9"
+    },
+    {
+      "id": "Amazon:suitcase luggage",
+      "retailer": "Amazon",
+      "category": "bag",
+      "label": "suitcase luggage",
+      "url": "https://www.amazon.in/s?k=suitcase+luggage"
+    },
+    {
+      "id": "Flipkart:Suitcases",
+      "retailer": "Flipkart",
+      "category": "bag",
+      "label": "Suitcases",
+      "url": "https://www.flipkart.com/suitcases/pr?sid=reh,plk,tvv"
+    },
+    {
+      "id": "Amazon:dining chair",
+      "retailer": "Amazon",
+      "category": "furniture",
+      "label": "dining chair",
+      "url": "https://www.amazon.in/s?k=dining+chair"
+    },
+    {
+      "id": "Flipkart:Chairs",
+      "retailer": "Flipkart",
+      "category": "furniture",
+      "label": "Chairs",
+      "url": "https://www.flipkart.com/chairs/pr?sid=wwe,y7b"
+    },
+    {
+      "id": "Amazon:office chair",
+      "retailer": "Amazon",
+      "category": "furniture",
+      "label": "office chair",
+      "url": "https://www.amazon.in/s?k=office+chair"
+    },
+    {
+      "id": "Flipkart:Office Study Chairs",
+      "retailer": "Flipkart",
+      "category": "furniture",
+      "label": "Office Study Chairs",
+      "url": "https://www.flipkart.com/office-study-chairs/pr?sid=wwe,y7b,foc"
+    },
+    {
+      "id": "Amazon:sofa",
+      "retailer": "Amazon",
+      "category": "furniture",
+      "label": "sofa",
+      "url": "https://www.amazon.in/s?k=sofa"
+    },
+    {
+      "id": "Flipkart:Sofas",
+      "retailer": "Flipkart",
+      "category": "furniture",
+      "label": "Sofas",
+      "url": "https://www.flipkart.com/sofas/pr?sid=wwe,c3z"
+    },
+    {
+      "id": "Amazon:mattress",
+      "retailer": "Amazon",
+      "category": "furniture",
+      "label": "mattress",
+      "url": "https://www.amazon.in/s?k=mattress"
+    },
+    {
+      "id": "Flipkart:Mattresses",
+      "retailer": "Flipkart",
+      "category": "furniture",
+      "label": "Mattresses",
+      "url": "https://www.flipkart.com/mattresses/pr?sid=wwe,rg9"
+    },
+    {
+      "id": "Amazon:cotton bedsheet",
+      "retailer": "Amazon",
+      "category": "bedding",
+      "label": "cotton bedsheet",
+      "url": "https://www.amazon.in/s?k=cotton+bedsheet"
+    },
+    {
+      "id": "Flipkart:Bedsheets",
+      "retailer": "Flipkart",
+      "category": "bedding",
+      "label": "Bedsheets",
+      "url": "https://www.flipkart.com/bedsheets/pr?sid=jra,knw,qcw"
+    },
+    {
+      "id": "Amazon:bed pillows",
+      "retailer": "Amazon",
+      "category": "bedding",
+      "label": "bed pillows",
+      "url": "https://www.amazon.in/s?k=bed+pillows"
+    },
+    {
+      "id": "Flipkart:Pillows",
+      "retailer": "Flipkart",
+      "category": "bedding",
+      "label": "Pillows",
+      "url": "https://www.flipkart.com/pillows/pr?sid=jra,kzv,3bw"
+    },
+    {
+      "id": "Amazon:curtains",
+      "retailer": "Amazon",
+      "category": "bedding",
+      "label": "curtains",
+      "url": "https://www.amazon.in/s?k=curtains"
+    },
+    {
+      "id": "Flipkart:Curtains",
+      "retailer": "Flipkart",
+      "category": "bedding",
+      "label": "Curtains",
+      "url": "https://www.flipkart.com/curtains/pr?sid=jra,sl5,2va"
+    },
+    {
+      "id": "Amazon:cookware set",
+      "retailer": "Amazon",
+      "category": "cookware",
+      "label": "cookware set",
+      "url": "https://www.amazon.in/s?k=cookware+set"
+    },
+    {
+      "id": "Flipkart:Cookware",
+      "retailer": "Flipkart",
+      "category": "cookware",
+      "label": "Cookware",
+      "url": "https://www.flipkart.com/cookware/pr?sid=upp,tnx"
+    },
+    {
+      "id": "Amazon:pressure cooker",
+      "retailer": "Amazon",
+      "category": "cookware",
+      "label": "pressure cooker",
+      "url": "https://www.amazon.in/s?k=pressure+cooker"
+    },
+    {
+      "id": "Flipkart:Pressure Cookers",
+      "retailer": "Flipkart",
+      "category": "cookware",
+      "label": "Pressure Cookers",
+      "url": "https://www.flipkart.com/pressure-cookers/pr?sid=upp,tnx,gsl"
+    },
+    {
+      "id": "Amazon:frying pan",
+      "retailer": "Amazon",
+      "category": "cookware",
+      "label": "frying pan",
+      "url": "https://www.amazon.in/s?k=frying+pan"
+    },
+    {
+      "id": "Flipkart:Pans",
+      "retailer": "Flipkart",
+      "category": "cookware",
+      "label": "Pans",
+      "url": "https://www.flipkart.com/pans/pr?sid=upp,tnx,9fq"
+    },
+    {
+      "id": "Amazon:dinner set",
+      "retailer": "Amazon",
+      "category": "cookware",
+      "label": "dinner set",
+      "url": "https://www.amazon.in/s?k=dinner+set"
+    },
+    {
+      "id": "Flipkart:Dinner Sets",
+      "retailer": "Flipkart",
+      "category": "cookware",
+      "label": "Dinner Sets",
+      "url": "https://www.flipkart.com/dinner-sets/pr?sid=upp,i7t,lha"
+    },
+    {
+      "id": "Amazon:air fryer",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "air fryer",
+      "url": "https://www.amazon.in/s?k=air+fryer"
+    },
+    {
+      "id": "Flipkart:Air Fryers",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Air Fryers",
+      "url": "https://www.flipkart.com/air-fryers/pr?sid=j9e,m38,j1e"
+    },
+    {
+      "id": "Amazon:mixer grinder",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "mixer grinder",
+      "url": "https://www.amazon.in/s?k=mixer+grinder"
+    },
+    {
+      "id": "Flipkart:Mixer Juicer Grinder",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Mixer Juicer Grinder",
+      "url": "https://www.flipkart.com/mixerjuicergrinders/pr?sid=j9e,m38,7ek"
+    },
+    {
+      "id": "Amazon:vacuum cleaner",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "vacuum cleaner",
+      "url": "https://www.amazon.in/s?k=vacuum+cleaner"
+    },
+    {
+      "id": "Flipkart:Vacuum Cleaners",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Vacuum Cleaners",
+      "url": "https://www.flipkart.com/vacuum-cleaners/pr?sid=j9e,abm,ul2"
+    },
+    {
+      "id": "Amazon:refrigerator",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "refrigerator",
+      "url": "https://www.amazon.in/s?k=refrigerator"
+    },
+    {
+      "id": "Flipkart:Refrigerators",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Refrigerators",
+      "url": "https://www.flipkart.com/refrigerators/pr?sid=j9e,abm,hzg"
+    },
+    {
+      "id": "Amazon:washing machine",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "washing machine",
+      "url": "https://www.amazon.in/s?k=washing+machine"
+    },
+    {
+      "id": "Flipkart:Washing Machines",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Washing Machines",
+      "url": "https://www.flipkart.com/washing-machines/pr?sid=j9e,abm,8qx"
+    },
+    {
+      "id": "Amazon:round digital alarm clock",
+      "retailer": "Amazon",
+      "category": "decor",
+      "label": "round digital alarm clock",
+      "url": "https://www.amazon.in/s?k=round+digital+alarm+clock"
+    },
+    {
+      "id": "Flipkart:Table Clocks",
+      "retailer": "Flipkart",
+      "category": "decor",
+      "label": "Table Clocks",
+      "url": "https://www.flipkart.com/table-clocks/pr?sid=arb,kjw,zja"
+    },
+    {
+      "id": "Amazon:wall clock",
+      "retailer": "Amazon",
+      "category": "decor",
+      "label": "wall clock",
+      "url": "https://www.amazon.in/s?k=wall+clock"
+    },
+    {
+      "id": "Flipkart:Wall Clocks",
+      "retailer": "Flipkart",
+      "category": "decor",
+      "label": "Wall Clocks",
+      "url": "https://www.flipkart.com/wall-clocks/pr?sid=arb,kjw,bm1"
+    },
+    {
+      "id": "Amazon:desk lamp",
+      "retailer": "Amazon",
+      "category": "decor",
+      "label": "desk lamp",
+      "url": "https://www.amazon.in/s?k=desk+lamp"
+    },
+    {
+      "id": "Flipkart:Table Lamps",
+      "retailer": "Flipkart",
+      "category": "decor",
+      "label": "Table Lamps",
+      "url": "https://www.flipkart.com/table-lamps/pr?sid=jhg,6w8,gde"
+    },
+    {
+      "id": "Amazon:sunscreen",
+      "retailer": "Amazon",
+      "category": "beauty",
+      "label": "sunscreen",
+      "url": "https://www.amazon.in/s?k=sunscreen"
+    },
+    {
+      "id": "Flipkart:Beauty and Grooming",
+      "retailer": "Flipkart",
+      "category": "beauty",
+      "label": "Beauty and Grooming",
+      "url": "https://www.flipkart.com/beauty-and-grooming/pr?sid=g9b"
+    },
+    {
+      "id": "Amazon:moisturizer",
+      "retailer": "Amazon",
+      "category": "beauty",
+      "label": "moisturizer",
+      "url": "https://www.amazon.in/s?k=moisturizer"
+    },
+    {
+      "id": "Flipkart:Makeup",
+      "retailer": "Flipkart",
+      "category": "beauty",
+      "label": "Makeup",
+      "url": "https://www.flipkart.com/makeup/pr?sid=g9b,ffi"
+    },
+    {
+      "id": "Amazon:perfume",
+      "retailer": "Amazon",
+      "category": "beauty",
+      "label": "perfume",
+      "url": "https://www.amazon.in/s?k=perfume"
+    },
+    {
+      "id": "Flipkart:Perfumes",
+      "retailer": "Flipkart",
+      "category": "beauty",
+      "label": "Perfumes",
+      "url": "https://www.flipkart.com/perfumes/pr?sid=kyh,r3o,aa1"
+    },
+    {
+      "id": "Amazon:dumbbells",
+      "retailer": "Amazon",
+      "category": "sports",
+      "label": "dumbbells",
+      "url": "https://www.amazon.in/s?k=dumbbells"
+    },
+    {
+      "id": "Flipkart:Dumbbells",
+      "retailer": "Flipkart",
+      "category": "sports",
+      "label": "Dumbbells",
+      "url": "https://www.flipkart.com/dumbbells/pr?sid=qoc,acb,zuc"
+    },
+    {
+      "id": "Amazon:yoga mat",
+      "retailer": "Amazon",
+      "category": "sports",
+      "label": "yoga mat",
+      "url": "https://www.amazon.in/s?k=yoga+mat"
+    },
+    {
+      "id": "Flipkart:Yoga Mats",
+      "retailer": "Flipkart",
+      "category": "sports",
+      "label": "Yoga Mats",
+      "url": "https://www.flipkart.com/yoga-mats/pr?sid=qoc,s1h,fco"
+    },
+    {
+      "id": "Amazon:badminton racket",
+      "retailer": "Amazon",
+      "category": "sports",
+      "label": "badminton racket",
+      "url": "https://www.amazon.in/s?k=badminton+racket"
+    },
+    {
+      "id": "Flipkart:Badminton",
+      "retailer": "Flipkart",
+      "category": "sports",
+      "label": "Badminton",
+      "url": "https://www.flipkart.com/badminton/pr?sid=abc,egs"
+    },
+    {
+      "id": "Amazon:jigsaw puzzle",
+      "retailer": "Amazon",
+      "category": "toy",
+      "label": "jigsaw puzzle",
+      "url": "https://www.amazon.in/s?k=jigsaw+puzzle"
+    },
+    {
+      "id": "Flipkart:Puzzles",
+      "retailer": "Flipkart",
+      "category": "toy",
+      "label": "Puzzles",
+      "url": "https://www.flipkart.com/puzzles/pr?sid=mgl,lu4"
+    },
+    {
+      "id": "Amazon:building blocks toys",
+      "retailer": "Amazon",
+      "category": "toy",
+      "label": "building blocks toys",
+      "url": "https://www.amazon.in/s?k=building+blocks+toys"
+    },
+    {
+      "id": "Flipkart:Blocks & Building Sets",
+      "retailer": "Flipkart",
+      "category": "toy",
+      "label": "Blocks & Building Sets",
+      "url": "https://www.flipkart.com/toys/blocks-constructions/pr?sid=mgl,v41,61z"
+    },
+    {
+      "id": "Amazon:fiction books",
+      "retailer": "Amazon",
+      "category": "book",
+      "label": "fiction books",
+      "url": "https://www.amazon.in/s?k=fiction+books"
+    },
+    {
+      "id": "Flipkart:Fiction Books",
+      "retailer": "Flipkart",
+      "category": "book",
+      "label": "Fiction Books",
+      "url": "https://www.flipkart.com/fiction-books/pr?sid=bks,wbi"
+    },
+    {
+      "id": "Amazon:school books",
+      "retailer": "Amazon",
+      "category": "book",
+      "label": "school books",
+      "url": "https://www.amazon.in/s?k=school+books"
+    },
+    {
+      "id": "Flipkart:School Books",
+      "retailer": "Flipkart",
+      "category": "book",
+      "label": "School Books",
+      "url": "https://www.flipkart.com/school-books/pr?sid=bks,ptf"
+    },
+    {
+      "id": "Amazon:tea",
+      "retailer": "Amazon",
+      "category": "grocery",
+      "label": "tea",
+      "url": "https://www.amazon.in/s?k=tea"
+    },
+    {
+      "id": "Flipkart:Tea",
+      "retailer": "Flipkart",
+      "category": "grocery",
+      "label": "Tea",
+      "url": "https://www.flipkart.com/tea/pr?sid=73z,ujs,amr"
+    },
+    {
+      "id": "Amazon:coffee",
+      "retailer": "Amazon",
+      "category": "grocery",
+      "label": "coffee",
+      "url": "https://www.amazon.in/s?k=coffee"
+    },
+    {
+      "id": "Flipkart:Coffee",
+      "retailer": "Flipkart",
+      "category": "grocery",
+      "label": "Coffee",
+      "url": "https://www.flipkart.com/coffee/pr?sid=73z,ujs,t7k"
+    },
+    {
+      "id": "Amazon:rice",
+      "retailer": "Amazon",
+      "category": "grocery",
+      "label": "rice",
+      "url": "https://www.amazon.in/s?k=rice"
+    },
+    {
+      "id": "Flipkart:Rice",
+      "retailer": "Flipkart",
+      "category": "grocery",
+      "label": "Rice",
+      "url": "https://www.flipkart.com/rice/pr?sid=eat,yul"
+    }
+  ],
+  "extended": [
+    {
+      "id": "Flipkart:OLED televisions",
+      "retailer": "Flipkart",
+      "category": "television",
+      "label": "OLED televisions",
+      "url": "https://www.flipkart.com/televisions/oled~screen-type/pr?sid=ckf%2Cczl"
+    },
+    {
+      "id": "Amazon:oled television",
+      "retailer": "Amazon",
+      "category": "television",
+      "label": "oled television",
+      "url": "https://www.amazon.in/s?k=oled+television"
+    },
+    {
+      "id": "Amazon:jackets",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "jackets",
+      "url": "https://www.amazon.in/s?k=jackets"
+    },
+    {
+      "id": "Flipkart:Jackets",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Jackets",
+      "url": "https://www.flipkart.com/jackets/pr?sid=clo,qvw,z0g"
+    },
+    {
+      "id": "Amazon:hoodie sweatshirt",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "hoodie sweatshirt",
+      "url": "https://www.amazon.in/s?k=hoodie+sweatshirt"
+    },
+    {
+      "id": "Flipkart:Sweatshirts",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Sweatshirts",
+      "url": "https://www.flipkart.com/sweatshirts/pr?sid=clo,qvw,64a"
+    },
+    {
+      "id": "Amazon:trousers",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "trousers",
+      "url": "https://www.amazon.in/s?k=trousers"
+    },
+    {
+      "id": "Flipkart:Trousers",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Trousers",
+      "url": "https://www.flipkart.com/trousers/pr?sid=clo,vua,mle"
+    },
+    {
+      "id": "Amazon:women leggings",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "women leggings",
+      "url": "https://www.amazon.in/s?k=women+leggings"
+    },
+    {
+      "id": "Flipkart:Leggings and Churidars",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Leggings and Churidars",
+      "url": "https://www.flipkart.com/leggings-and-churidars/pr?sid=clo,cfv,ht7"
+    },
+    {
+      "id": "Amazon:shorts",
+      "retailer": "Amazon",
+      "category": "clothing",
+      "label": "shorts",
+      "url": "https://www.amazon.in/s?k=shorts"
+    },
+    {
+      "id": "Flipkart:Shorts",
+      "retailer": "Flipkart",
+      "category": "clothing",
+      "label": "Shorts",
+      "url": "https://www.flipkart.com/shorts/pr?sid=clo,vua,e8g"
+    },
+    {
+      "id": "Amazon:blankets",
+      "retailer": "Amazon",
+      "category": "bedding",
+      "label": "blankets",
+      "url": "https://www.amazon.in/s?k=blankets"
+    },
+    {
+      "id": "Flipkart:Blankets",
+      "retailer": "Flipkart",
+      "category": "bedding",
+      "label": "Blankets",
+      "url": "https://www.flipkart.com/blankets/pr?sid=jra,knw,llw"
+    },
+    {
+      "id": "Amazon:bath towels",
+      "retailer": "Amazon",
+      "category": "bedding",
+      "label": "bath towels",
+      "url": "https://www.amazon.in/s?k=bath+towels"
+    },
+    {
+      "id": "Flipkart:Bath Towels",
+      "retailer": "Flipkart",
+      "category": "bedding",
+      "label": "Bath Towels",
+      "url": "https://www.flipkart.com/bath-towels/pr?sid=jra,jk3,wtg"
+    },
+    {
+      "id": "Amazon:water bottles",
+      "retailer": "Amazon",
+      "category": "cookware",
+      "label": "water bottles",
+      "url": "https://www.amazon.in/s?k=water+bottles"
+    },
+    {
+      "id": "Flipkart:Water Bottles & Flasks",
+      "retailer": "Flipkart",
+      "category": "cookware",
+      "label": "Water Bottles & Flasks",
+      "url": "https://www.flipkart.com/water-bottles-flasks/pr?sid=upp,3t7"
+    },
+    {
+      "id": "Amazon:lunch boxes",
+      "retailer": "Amazon",
+      "category": "cookware",
+      "label": "lunch boxes",
+      "url": "https://www.amazon.in/s?k=lunch+boxes"
+    },
+    {
+      "id": "Flipkart:Lunch Boxes",
+      "retailer": "Flipkart",
+      "category": "cookware",
+      "label": "Lunch Boxes",
+      "url": "https://www.flipkart.com/lunch-boxes/pr?sid=upp,bqi"
+    },
+    {
+      "id": "Amazon:kitchen storage containers",
+      "retailer": "Amazon",
+      "category": "cookware",
+      "label": "kitchen storage containers",
+      "url": "https://www.amazon.in/s?k=kitchen+storage+containers"
+    },
+    {
+      "id": "Flipkart:Kitchen Containers",
+      "retailer": "Flipkart",
+      "category": "cookware",
+      "label": "Kitchen Containers",
+      "url": "https://www.flipkart.com/kitchen-containers/pr?sid=upp,5ix,01e"
+    },
+    {
+      "id": "Amazon:dining table",
+      "retailer": "Amazon",
+      "category": "furniture",
+      "label": "dining table",
+      "url": "https://www.amazon.in/s?k=dining+table"
+    },
+    {
+      "id": "Flipkart:Dining Tables",
+      "retailer": "Flipkart",
+      "category": "furniture",
+      "label": "Dining Tables",
+      "url": "https://www.flipkart.com/dining-tables/pr?sid=wwe,ur9,ysz"
+    },
+    {
+      "id": "Amazon:wardrobe",
+      "retailer": "Amazon",
+      "category": "furniture",
+      "label": "wardrobe",
+      "url": "https://www.amazon.in/s?k=wardrobe"
+    },
+    {
+      "id": "Flipkart:Wardrobes",
+      "retailer": "Flipkart",
+      "category": "furniture",
+      "label": "Wardrobes",
+      "url": "https://www.flipkart.com/wardrobes/pr?sid=wwe,fc3,dsw"
+    },
+    {
+      "id": "Amazon:bookshelf",
+      "retailer": "Amazon",
+      "category": "furniture",
+      "label": "bookshelf",
+      "url": "https://www.amazon.in/s?k=bookshelf"
+    },
+    {
+      "id": "Flipkart:Bookshelves",
+      "retailer": "Flipkart",
+      "category": "furniture",
+      "label": "Bookshelves",
+      "url": "https://www.flipkart.com/bookshelves/pr?sid=wwe,vmc,1qe"
+    },
+    {
+      "id": "Amazon:beard trimmer",
+      "retailer": "Amazon",
+      "category": "beauty",
+      "label": "beard trimmer",
+      "url": "https://www.amazon.in/s?k=beard+trimmer"
+    },
+    {
+      "id": "Flipkart:Trimmers",
+      "retailer": "Flipkart",
+      "category": "beauty",
+      "label": "Trimmers",
+      "url": "https://www.flipkart.com/trimmers/pr?sid=zlw,79s,by3"
+    },
+    {
+      "id": "Amazon:cricket bat",
+      "retailer": "Amazon",
+      "category": "sports",
+      "label": "cricket bat",
+      "url": "https://www.amazon.in/s?k=cricket+bat"
+    },
+    {
+      "id": "Flipkart:Cricket Bat",
+      "retailer": "Flipkart",
+      "category": "sports",
+      "label": "Cricket Bat",
+      "url": "https://www.flipkart.com/cricket-bat/pr?sid=abc,5lf,p8v"
+    },
+    {
+      "id": "Amazon:football",
+      "retailer": "Amazon",
+      "category": "sports",
+      "label": "football",
+      "url": "https://www.amazon.in/s?k=football"
+    },
+    {
+      "id": "Flipkart:Footballs",
+      "retailer": "Flipkart",
+      "category": "sports",
+      "label": "Footballs",
+      "url": "https://www.flipkart.com/footballs/pr?sid=abc,gxg,eha"
+    },
+    {
+      "id": "Amazon:bicycle",
+      "retailer": "Amazon",
+      "category": "sports",
+      "label": "bicycle",
+      "url": "https://www.amazon.in/s?k=bicycle"
+    },
+    {
+      "id": "Flipkart:Cycles",
+      "retailer": "Flipkart",
+      "category": "sports",
+      "label": "Cycles",
+      "url": "https://www.flipkart.com/cycles/pr?sid=abc,ulv,ixt"
+    },
+    {
+      "id": "Amazon:board games",
+      "retailer": "Amazon",
+      "category": "toy",
+      "label": "board games",
+      "url": "https://www.amazon.in/s?k=board+games"
+    },
+    {
+      "id": "Flipkart:Board Games",
+      "retailer": "Flipkart",
+      "category": "toy",
+      "label": "Board Games",
+      "url": "https://www.flipkart.com/board-games/pr?sid=tng,gfv,isv"
+    },
+    {
+      "id": "Amazon:dolls",
+      "retailer": "Amazon",
+      "category": "toy",
+      "label": "dolls",
+      "url": "https://www.amazon.in/s?k=dolls"
+    },
+    {
+      "id": "Flipkart:Dolls",
+      "retailer": "Flipkart",
+      "category": "toy",
+      "label": "Dolls",
+      "url": "https://www.flipkart.com/dolls/pr?sid=tng,kks,aty"
+    },
+    {
+      "id": "Amazon:power bank",
+      "retailer": "Amazon",
+      "category": "accessory",
+      "label": "power bank",
+      "url": "https://www.amazon.in/s?k=power+bank"
+    },
+    {
+      "id": "Flipkart:Power Banks",
+      "retailer": "Flipkart",
+      "category": "accessory",
+      "label": "Power Banks",
+      "url": "https://www.flipkart.com/power-banks/pr?sid=tyy,4mr,fu6"
+    },
+    {
+      "id": "Amazon:computer keyboard",
+      "retailer": "Amazon",
+      "category": "accessory",
+      "label": "computer keyboard",
+      "url": "https://www.amazon.in/s?k=computer+keyboard"
+    },
+    {
+      "id": "Flipkart:Keyboards",
+      "retailer": "Flipkart",
+      "category": "accessory",
+      "label": "Keyboards",
+      "url": "https://www.flipkart.com/keyboards/pr?sid=tyy,jgu,77o"
+    },
+    {
+      "id": "Amazon:wireless mouse",
+      "retailer": "Amazon",
+      "category": "accessory",
+      "label": "wireless mouse",
+      "url": "https://www.amazon.in/s?k=wireless+mouse"
+    },
+    {
+      "id": "Flipkart:Mouse",
+      "retailer": "Flipkart",
+      "category": "accessory",
+      "label": "Mouse",
+      "url": "https://www.flipkart.com/mouse/pr?sid=6bo,ai3,2ay"
+    },
+    {
+      "id": "Amazon:electric kettle",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "electric kettle",
+      "url": "https://www.amazon.in/s?k=electric+kettle"
+    },
+    {
+      "id": "Flipkart:Electric Jug(heater)/Travel Kettles",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Electric Jug(heater)/Travel Kettles",
+      "url": "https://www.flipkart.com/electric-jugheatertravel-kettles/pr?sid=j9e,m38,xrv"
+    },
+    {
+      "id": "Amazon:bread toaster",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "bread toaster",
+      "url": "https://www.amazon.in/s?k=bread+toaster"
+    },
+    {
+      "id": "Flipkart:Pop-up Toasters",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Pop-up Toasters",
+      "url": "https://www.flipkart.com/popup-toasters/pr?sid=j9e,m38,txh"
+    },
+    {
+      "id": "Amazon:steam iron",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "steam iron",
+      "url": "https://www.amazon.in/s?k=steam+iron"
+    },
+    {
+      "id": "Flipkart:Irons",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Irons",
+      "url": "https://www.flipkart.com/iron/pr?sid=j9e,abm,a0u"
+    },
+    {
+      "id": "Amazon:microwave oven",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "microwave oven",
+      "url": "https://www.amazon.in/s?k=microwave+oven"
+    },
+    {
+      "id": "Flipkart:Microwave Ovens",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Microwave Ovens",
+      "url": "https://www.flipkart.com/microwave-ovens/pr?sid=j9e,m38,o49"
+    },
+    {
+      "id": "Amazon:split air conditioner",
+      "retailer": "Amazon",
+      "category": "appliance",
+      "label": "split air conditioner",
+      "url": "https://www.amazon.in/s?k=split+air+conditioner"
+    },
+    {
+      "id": "Flipkart:Air Conditioners",
+      "retailer": "Flipkart",
+      "category": "appliance",
+      "label": "Air Conditioners",
+      "url": "https://www.flipkart.com/air-conditioners/pr?sid=j9e,abm,c54"
+    },
+    {
+      "id": "Amazon:wallet",
+      "retailer": "Amazon",
+      "category": "bag",
+      "label": "wallet",
+      "url": "https://www.amazon.in/s?k=wallet"
+    },
+    {
+      "id": "Flipkart:Wallets",
+      "retailer": "Flipkart",
+      "category": "bag",
+      "label": "Wallets",
+      "url": "https://www.flipkart.com/wallets/pr?sid=reh,4d7,tlx"
+    }
+  ]
+}
