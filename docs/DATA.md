@@ -2,6 +2,8 @@
 
 Use UTF-8 JSONL: one JSON object per line. The interface also accepts a JSON array. Fields are validated before importing. Use real observations, not copied template values.
 
+The table below describes the import schema implemented in this published checkout. The [expanded development catalog](CATALOG_EXPANSION.md) also includes Reliance Digital, but its adapter/schema extension has not been ported here; do not import those records into this checkout. Development Reliance identities use the first 24 hexadecimal characters of SHA-256 of the full product slug and a direct HTTPS `/product/...` URL.
+
 Required fields:
 
 | Field | Meaning |

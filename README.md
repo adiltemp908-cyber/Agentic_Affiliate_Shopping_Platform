@@ -1,10 +1,12 @@
 # Agentic Affiliate Shopping Platform
 
-**Shortlist — a local AI shopping assistant for Amazon India and Flipkart.**
+**Shortlist — a local AI shopping assistant for shopping across Indian retailers.**
+
+The latest development catalog contains **57,361 retailer listings across Amazon India, Flipkart and Reliance Digital**, covering **23 category groups** as of 3 November 2026. See the [catalog expansion record](docs/CATALOG_EXPANSION.md) for coverage, validation and published-code availability.
 
 Describe what you need, refine it through conversation, and compare a shortlist whose prices, specifications and source links remain visible.
 
-[Search examples and screenshots](docs/SHOWCASE.md) · [Setup](docs/SETUP.md) · [Architecture](docs/ARCHITECTURE.md) · [Data format](docs/DATA.md)
+[Search examples and screenshots](docs/SHOWCASE.md) · [Setup](docs/SETUP.md) · [Architecture](docs/ARCHITECTURE.md) · [Data format](docs/DATA.md) · [Catalog expansion](docs/CATALOG_EXPANSION.md)
 
 ## Business case
 
@@ -32,7 +34,7 @@ The notebook prototype became a Python package, local HTTP service and browser i
 
 ### 3. Add cross-retailer catalog acquisition
 
-Amazon and Flipkart adapters collect supported public product observations. Flipkart category traversal provides broad discovery; Amazon discovery checks individual product pages after finding their URLs. Known-product refresh and linked-product discovery provide additional paths when search pages are unavailable.
+The published Amazon and Flipkart adapters collect supported public product observations. The expanded development workspace also collects Reliance Digital observations, including direct product refresh and bounded collection-page discovery. Flipkart category traversal provides broad discovery; Amazon discovery checks individual product pages after finding their URLs. Known-product refresh and linked-product discovery provide additional paths when search pages are unavailable.
 
 Collectors use bounded requests, source-policy checks, canonical product IDs and visible failures. Category-card prices are distinguished from product-detail checks. A successful page check is not a guarantee of delivery, variant availability or final checkout price.
 
@@ -60,7 +62,7 @@ Replies use recorded catalog facts, with model-assisted conversational phrasing.
 
 ### 8. Expand categories and repair catalog interpretation
 
-Collection expanded beyond laptops into phones, TVs, clothing, footwear, home, kitchen, personal care, sports, toys and accessories. Targeted OLED collection revealed a second issue: the model could understand OLED while the catalog lacked the display field used by filtering. Extraction and matching now share that field and distinguish OLED, QLED, AMOLED and other panel types.
+Collection expanded beyond laptops into phones, TVs, clothing, footwear, home, kitchen, personal care, sports, toys, books, groceries and accessories. November collection runs added 30,646 net listings to the 31 October baseline, including 960 Reliance Digital listings and a final 13,903-listing Flipkart expansion across 89 departments. Targeted OLED collection revealed a second issue: the model could understand OLED while the catalog lacked the display field used by filtering. Extraction and matching now share that field and distinguish OLED, QLED, AMOLED and other panel types.
 
 Retailer department evidence also helps distinguish rice containers from rice, and fridge bottles from refrigerators. Explicit components and warranty plans are kept out of whole-product recommendations or physical-product discovery as appropriate.
 
@@ -70,24 +72,33 @@ The interface shows the conversation, saved criteria, retailer offers, evidence,
 
 ### 10. Validate behavior and prepare a clean repository
 
-The current suite contains **162 passing regression tests**. Live browser checks exercise local-model interpretation, hybrid search, retained constraints, price refinements and persisted state. The [showcase](docs/SHOWCASE.md) contains actual application captures, including a round digital alarm clock search.
+The published source baseline recorded **162 passing regression tests** on 31 October. The expanded development workspace recorded **293 passing tests** and **14 hybrid search checks** on 3 November; these results apply to that workspace, as detailed in the [validation record](docs/VALIDATION.md). Live browser checks exercise local-model interpretation, hybrid search, retained constraints, price refinements and persisted state. The [showcase](docs/SHOWCASE.md) contains actual application captures, including a round digital alarm clock search.
 
 This repository includes application source, tests, reusable collection tools, configuration examples and selected documentation. Generated databases, chat histories, runtime keys, model weights, embeddings, raw scraped pages and development reports are excluded.
 
 ## Current development snapshot
 
-Measured on **31 October 2026** in the populated development workspace:
+Measured on **3 November 2026 at 10:25 IST** in the populated development workspace:
 
 | Measure | Snapshot |
 |---|---:|
-| Retailer listings | 26,715 |
-| Recently checked, priced listings not marked unavailable | 13,272 |
-| Amazon recent priced listings | 151 |
-| Flipkart recent priced listings | 13,121 |
-| Recently collected OLED TV listings | 41 |
-| Regression tests passing | 162 |
+| Total retailer listings | 57,361 |
+| Category groups, including Other | 23 |
+| Observations within the preceding 24 hours | 23,104 |
+| Recent priced listings, not marked unavailable | 22,841 |
+| Explicitly historical records | 12,236 |
 
-These are dated observations, not a live inventory claim or a count of distinct physical products. Recent status expires after 24 hours. **The populated catalog is not bundled in the repository**; a fresh checkout starts empty and must collect or import documented observations. The screenshots show the populated development instance.
+| Retailer | Total listings | Recent priced, not marked unavailable |
+|---|---:|---:|
+| Amazon India | 12,572 | 0 |
+| Flipkart | 43,829 | 22,144 |
+| Reliance Digital | 960 | 697 |
+
+Amazon observations had aged beyond the 24-hour window by this validation; zero recent listings does not mean Amazon has no products. Reliance Digital's remaining 263 recent listings were marked unavailable and excluded from normal recommendations.
+
+These are dated observations, not live inventory or a count of distinct physical products. Category-card prices do not establish stock, postcode delivery, selected size or checkout price. **The populated catalog is not bundled in the repository**; a fresh checkout starts empty. The [expansion record](docs/CATALOG_EXPANSION.md) includes category totals, collection history and a machine-readable snapshot.
+
+**Published-code scope:** this documentation update records the newer development catalog. This checkout still provides the Amazon/Flipkart implementation and the `broad`/`extended` collection profiles. Reliance Digital support and the `more`, `additional` and `further` profiles are present in the development workspace but have not been ported into this published source tree. Follow [Setup](docs/SETUP.md) for commands available here. The screenshots below retain their original 31 October capture date.
 
 ## Example searches and product pages
 
@@ -153,7 +164,7 @@ web/              Browser interface
 tests/            Regression tests with isolated test data
 scripts/          Reusable collection and screenshot capture tools
 config/           Public category seeds and example model manifest
-docs/             Setup, architecture, import format and screenshot showcase
+docs/             Setup, architecture, imports, catalog expansion and screenshot showcase
 data/, models/    Empty runtime directories; generated contents are ignored
 ```
 
@@ -163,7 +174,7 @@ data/, models/    Empty runtime directories; generated contents are ignored
 python -m pytest -q
 ```
 
-Unit tests run without retailer access or downloaded model weights. Live examples require a populated recent catalog and configured local models. The screenshot capture script validates both the saved requirements and returned products before taking each image. These are regression and demonstration checks, not an independent benchmark of shopping recommendation quality.
+See the [dated validation record](docs/VALIDATION.md) for the published baseline and expanded development results. Unit tests run without retailer access or downloaded model weights. Live examples require a populated recent catalog and configured local models. The screenshot capture script validates both the saved requirements and returned products before taking each image. These are regression and demonstration checks, not an independent benchmark of shopping recommendation quality.
 
 ## Current limitations and next steps
 

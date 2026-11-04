@@ -4,6 +4,8 @@ These are actual browser captures from the populated development app on **31 Oct
 
 The capture checks verify both the saved requirements and returned product fields. This demonstrates the recorded behavior of these examples, not universal language understanding or independently tested product quality. Prices and availability can change. The interface uses clearly labeled illustrations/category placeholders rather than product photographs.
 
+For the newer 57,361-listing development snapshot, see [Catalog expansion](CATALOG_EXPANSION.md). These screenshots remain the original 31 October examples and were not recaptured for the November expansion.
+
 ## 1. A round digital alarm clock
 
 **Request:** “I want a digital alarm clock that is round in shape”

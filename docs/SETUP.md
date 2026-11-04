@@ -42,7 +42,7 @@ Other overrides are `SHORTLIST_DATA`, `SHORTLIST_PORT` and `SHORTLIST_MODEL_PORT
 
 ## 3. Populate an empty catalog
 
-A fresh checkout contains no commercial catalog or saved conversations. Start with a small public category or a known product link:
+A fresh checkout contains no commercial catalog or saved conversations. The [3 November development snapshot](CATALOG_EXPANSION.md) contains 57,361 listings, but its database is not distributed. This checkout supports Amazon/Flipkart and the `broad`/`extended` profiles; the development-only Reliance Digital adapter and `more`/`additional`/`further` profiles are not included here. Start with a small public category or a known product link:
 
 ```powershell
 python -m shortlist collect 'https://www.flipkart.com/televisions/oled~screen-type/pr?sid=ckf%2Cczl' --pages 3 --category television
@@ -113,4 +113,4 @@ The capture script requires current matching data, validates the displayed const
 | Semantic search falls back to BM25 | Check embedding assets and rebuild the index. |
 | Retailer returns HTTP 503 | That endpoint is unavailable to the request. Retry later; known product pages may behave differently from search pages. |
 
-Catalogs, keys, chats, logs and model files are ignored by Git. Screenshots and source configuration are the only selected generated/reference assets committed here.
+Catalogs, keys, chats, logs and model files are ignored by Git. Selected screenshots, source configuration and the aggregate catalog snapshot in `docs/` are committed reference assets; product records and raw development reports remain excluded.

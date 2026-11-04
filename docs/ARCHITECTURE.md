@@ -38,6 +38,12 @@ The model supplies **preference changes and conversational choices**, not produc
 
 This is a controlled stateful workflow rather than an open-ended autonomous agent. Catalog acquisition is a separate user-triggered operation, not a tool loop the model independently plans during a search.
 
+## Catalog expansion
+
+The [3 November development snapshot](CATALOG_EXPANSION.md) records 57,361 listings across three retailers and 23 category groups. The published source still implements Amazon and Flipkart; Reliance Digital support is currently in the development workspace. Its collector validates collection-card identity against embedded product state, uses an explicit INR selling price with equal minimum/maximum values, and records unavailable products separately. Collection observations retain their source limitations and do not imply checkout stock.
+
+Broader department collection increases candidate coverage while freshness and mandatory filters continue to control eligibility. Metadata corrections preserve original observation timestamps; collection and index rebuilds are separate operations when indexing is deferred. Aggregate catalog size is not a recommendation-quality metric.
+
 ## Data and ranking
 
 `catalog.sqlite3` stores offers and source-check logs. `conversations.sqlite3` stores checkpoints. `embeddings.npz` stores normalized vectors, text signatures and a catalog fingerprint. Runtime storage is excluded from version control.

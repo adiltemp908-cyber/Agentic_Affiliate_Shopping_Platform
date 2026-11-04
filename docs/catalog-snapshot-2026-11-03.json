@@ -1,0 +1,172 @@
+{
+  "scope": "Populated development workspace; not a bundled catalog or validation of the published source checkout.",
+  "checked_at": "2026-11-03T04:55:58.642295+00:00",
+  "freshness_window_hours": 24,
+  "catalog": {
+    "offers": 57361,
+    "products": 57361,
+    "retailer_coverage": {
+      "Amazon": {
+        "total": 12572,
+        "recent": 0,
+        "recent_priced": 0,
+        "recent_out_of_stock": 0,
+        "recent_unknown_price": 0
+      },
+      "Flipkart": {
+        "total": 43829,
+        "recent": 22144,
+        "recent_priced": 22144,
+        "recent_out_of_stock": 0,
+        "recent_unknown_price": 0
+      },
+      "Reliance Digital": {
+        "total": 960,
+        "recent": 960,
+        "recent_priced": 697,
+        "recent_out_of_stock": 263,
+        "recent_unknown_price": 0
+      }
+    },
+    "categories": {
+      "accessory": {
+        "total": 4280,
+        "recent": 1878
+      },
+      "appliance": {
+        "total": 3212,
+        "recent": 679
+      },
+      "bag": {
+        "total": 2296,
+        "recent": 902
+      },
+      "beauty": {
+        "total": 2681,
+        "recent": 978
+      },
+      "bedding": {
+        "total": 4288,
+        "recent": 1893
+      },
+      "book": {
+        "total": 4466,
+        "recent": 3494
+      },
+      "camera": {
+        "total": 906,
+        "recent": 64
+      },
+      "clothing": {
+        "total": 5141,
+        "recent": 1539
+      },
+      "cookware": {
+        "total": 5270,
+        "recent": 2755
+      },
+      "decor": {
+        "total": 4634,
+        "recent": 2376
+      },
+      "footwear": {
+        "total": 1245,
+        "recent": 0
+      },
+      "furniture": {
+        "total": 3582,
+        "recent": 1173
+      },
+      "grocery": {
+        "total": 2738,
+        "recent": 1556
+      },
+      "headphones": {
+        "total": 922,
+        "recent": 81
+      },
+      "laptop": {
+        "total": 930,
+        "recent": 95
+      },
+      "monitor": {
+        "total": 745,
+        "recent": 25
+      },
+      "other": {
+        "total": 85,
+        "recent": 6
+      },
+      "smartphone": {
+        "total": 847,
+        "recent": 100
+      },
+      "smartwatch": {
+        "total": 224,
+        "recent": 75
+      },
+      "sports": {
+        "total": 4250,
+        "recent": 1745
+      },
+      "tablet": {
+        "total": 878,
+        "recent": 119
+      },
+      "television": {
+        "total": 538,
+        "recent": 40
+      },
+      "toy": {
+        "total": 3203,
+        "recent": 1531
+      }
+    },
+    "retailers": {
+      "Amazon": 12572,
+      "Flipkart": 43829,
+      "Reliance Digital": 960
+    },
+    "freshness": {
+      "recent": 23104,
+      "stale": 22021,
+      "unverified": 0,
+      "historical": 12236,
+      "fixture": 0
+    }
+  },
+  "validation": {
+    "index_matches_catalog": true,
+    "tests_passed": 293,
+    "net_new_flipkart_listings": 13903,
+    "hybrid_search_checks_passed": 14,
+    "new_by_category": {
+      "book": 2092,
+      "sports": 1337,
+      "decor": 1670,
+      "accessory": 1177,
+      "bag": 646,
+      "beauty": 650,
+      "cookware": 1358,
+      "bedding": 1383,
+      "toy": 842,
+      "appliance": 235,
+      "clothing": 984,
+      "furniture": 273,
+      "other": 5,
+      "grocery": 1251
+    },
+    "other_retailers_unchanged": true
+  },
+  "audit_validation_issue_count": 0,
+  "source_reports": [
+    {
+      "filename": "further-flipkart-final-validation-2026-11-03.json",
+      "sha256": "ac1a15c5a728645eaf83f0bd24aaad0d21c92ee34c7efddd7090d869d4182af1"
+    },
+    {
+      "filename": "further-flipkart-audit-2026-11-03.json",
+      "sha256": "6094d64bccaad8720fda4fa43d9fd9214a04f90adebe1b2a8adc22332a9e1f1d"
+    }
+  ]
+}
